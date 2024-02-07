@@ -1,0 +1,4 @@
+---
+layout: splash
+permalink: /
+---
