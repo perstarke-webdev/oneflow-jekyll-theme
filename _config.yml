@@ -159,5 +159,5 @@ defaults:
       path: "_pages"
       type: "pages"
     values:
-      layout: "splash"
+      layout: "page"
 
