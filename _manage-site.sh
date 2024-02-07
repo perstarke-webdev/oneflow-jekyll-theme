@@ -3,7 +3,7 @@
 # helper, so you don't need to remember docker-compose syntax...
 
 # what's the site?
-site="OneFlow"
+site="OneFlow Jekyll Theme"
 
 # some colors to highlight certain output
 GREEN=`tput setaf 2`
