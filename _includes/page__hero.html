@@ -28,14 +28,13 @@
       {% if page.header.show_overlay_excerpt != false and page.excerpt %}
         <p class="page__lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
       {% endif %}
-      {% if page.header.cta_url %}
-        <p><a href="{{ page.header.cta_url | relative_url }}" class="btn btn--light-outline btn--large">{{ page.header.cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
-      {% endif %}
       {% if page.header.actions %}
+      <div style="text-align: center">
         <p>
         {% for action in page.header.actions %}
           <a href="{{ action.url | relative_url }}" class="btn btn--light-outline btn--large">{{ action.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
         {% endfor %}
+      </div>
       {% endif %}
     </div>
   {% else %}
