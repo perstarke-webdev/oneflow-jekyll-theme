@@ -100,19 +100,19 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: rgb(173, 188, 146);
+  background: $primary-color;
   font-size: 24px;
   line-height: 50px;
   text-align: center;
   transition: background-color 0.3s ease;
 
   &:hover {
-    background: rgb(246, 210, 122);
+    background: $link-color;
   }
 }
 
 .footer-icon {
-  color: white !important;
+  color: $footer-background-color !important;
   position: absolute;
   top: 50%;
   left: 50%;
