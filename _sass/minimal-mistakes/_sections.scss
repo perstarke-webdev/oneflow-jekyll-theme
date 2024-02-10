@@ -1,0 +1,4 @@
+.section-sep {
+  border: 4px solid;
+  border-image: linear-gradient(to right, rgba($primary-color, 0), $primary-color, rgba($primary-color, 0)) 1;
+}
