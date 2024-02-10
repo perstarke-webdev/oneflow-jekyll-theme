@@ -1,41 +1,27 @@
 <div class="page__footer-follow">
 
-    <ul class="socials">
+  <ul class="socials">
 
-      <li></li>
+    <li></li>
 
-      <li class="socials__item">
-        <a href="https://perstarke-webdev.de" rel="noopener noreferrer nofollow" target="_blank" class="socials__item__link" title="Website">
-          <i class="fa fa-globe footer-icon" aria-hidden="true"></i>
-        </a>
-      </li>
+    {% for link in site.footer.links %}
+    {% if link.url %}
+    <li class="socials__item">
+      <a href="{{link.url}}" rel="noopener noreferrer nofollow" target="_blank" class="socials__item__link" title="{{link.label}}">
+        <i class="{{link.icon}} footer-icon" aria-hidden="true"></i>
+      </a>
+    </li>
+    {% endif %}
+    {% endfor %}
 
-      <li class="socials__item">
-        <a href="https://www.instagram.com/per.starke/" rel="noopener noreferrer nofollow" target="_blank" class="socials__item__link" title="Instagram">
-          <i class="fab fa-instagram footer-icon" aria-hidden="true"></i>
-        </a>
-      </li>
+    <li class="socials__item">
+      <a href="/imprint" rel="noopener noreferrer nofollow" target="_blank" class="socials__item__link" title="Imprint">
+        <i class="fas fa-gavel footer-icon" aria-hidden="true"></i>
+      </a>
+    </li>
 
-      <li class="socials__item">
-        <a href="https://dev.to/per-starke-642" rel="noopener noreferrer nofollow" target="_blank" class="socials__item__link" title="Dev">
-          <i class="fab fa-dev footer-icon" aria-hidden="true"></i>
-        </a>
-      </li>
-
-      <li class="socials__item">
-        <a href="mailto: per@starke-team.de" class="socials__item__link" title="Mail">
-          <i class="fa fa-envelope footer-icon" aria-hidden="true"></i>
-        </a>
-      </li>
-
-      <li class="socials__item">
-        <a href="/imprint" rel="noopener noreferrer nofollow" target="_blank" class="socials__item__link" title="Imprint">
-          <i class="fas fa-gavel footer-icon" aria-hidden="true"></i>
-        </a>
-      </li>
-
-    </ul>
+  </ul>
 
   </div>
 
-  <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. Created by <a rel="noopener noreferrer nofollow" target="_blank"href="https://perstarke-webdev.de/">Per Starke Web Development</a></div>
+  <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.footer.copyright | default: site.title }}. {% if site.footer.creator %} Created by <a rel="noopener noreferrer nofollow" target="_blank"href="{{site.footer.creator.url}}">{{site.footer.creator.name}}</a>{% endif %}</div>

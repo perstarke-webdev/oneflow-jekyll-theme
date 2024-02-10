@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 
-minimal_mistakes_skin    : "sunrise" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -22,49 +22,41 @@ masthead_title           : " " # Overrides the website title displayed in the ma
 
 
 
-# Site Author
-author:
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
-
-# Site Footer
+# Site Footer.
 footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+  links: # replace the URL's with your own for every link you want to have in your footer.
+    - label: "Website"
+      icon: "fa fa-globe"
+      url: "https://perstarke-webdev.de"
+    - label: "Email"
+      icon: "fa fa-envelope"
+      url: "mailto: per@starke-team.de"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      # url:
+    - label: "X/Twitter"
+      icon: "fab fa-x-twitter"
       # url:
     - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
+      icon: "fab fa-facebook"
       # url:
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
+      icon: "fab fa-github"
+      url: "https://github.com/perstarke-webdev"
     - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+      icon: "fab fa-instagram"
+      url: "https://www.instagram.com/per.starke/"
+    - label: "YouTube"
+      icon: "fab fa-youtube"
+      url: "https://www.youtube.com/channel/UCG2Ndo4IEH8Fa0oIv2FBRMA"
+    - label: "Dev"
+      icon: "fab fa-dev"
+      url: "https://dev.to/per-starke-642"
+  copyright: "Per Starke Web Development" # Replace with your own
+  creator: # Replace with your own creator name or remove this if you don't want any "created by" in the footer
+      name: "Per Starke Web Development"
+      url: "https://perstarke-webdev.de"
+
 
 
 # Reading Files
