@@ -2,9 +2,14 @@
 main:
   - title: "Quick-Start Guide"
     url: https://perstarke-webdev.de
+    blank: true
+    description: "The quick-start guide for this theme, on https://perstarke-webdev.de"
   - title: "Section 1"
     url: /#section-1
+    blank: false
   - title: "Section 2"
     url: /#section-2
+    blank: false
   - title: "Section 3"
     url: /#section-3
+    blank: false
