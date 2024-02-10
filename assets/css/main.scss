@@ -5,5 +5,5 @@ search: false
 
 @charset "utf-8";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+@import "oneflow/skins/{{ site.oneflow-skin | default: 'default' }}"; // skin
+@import "oneflow"; // main partials

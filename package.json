@@ -1,23 +1,23 @@
 {
-  "name": "minimal-mistakes",
+  "name": "oneflow",
   "private": true,
-  "version": "4.24.0",
-  "description": "Minimal Mistakes 2 column Jekyll theme.",
+  "version": "1.0",
+  "description": "OneFlow, One-Pager Websites Jekyll Theme",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mmistakes/minimal-mistakes.git"
+    "url": "git://github.com/perstarke-webdev/oneflow-jekyll-theme.git"
   },
   "keywords": [
     "jekyll",
     "theme",
-    "minimal"
+    "one-pager"
   ],
-  "author": "Michael Rose",
+  "author": "Per Starke",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mmistakes/minimal-mistakes/issues"
+    "url": "https://github.com/perstarke-webdev/oneflow-jekyll-theme/issues"
   },
-  "homepage": "https://mmistakes.github.io/minimal-mistakes/",
+  "homepage": "https://perstarke-webdev.de/",
   "engines": {
     "node": ">= 0.10.0"
   },
