@@ -591,3 +591,47 @@ a.reversefootnote {
     position: static;
   }
 }
+
+
+/*
+   Rounded images
+   ========================================================================== */
+
+.round-image-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.round-image-box {
+    width: calc(33.33% - 20px);
+    padding: 20px;
+    border: 1px solid $primary-color;
+    box-sizing: border-box;
+    text-align: center;
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+.round-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+}
+
+.round-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
