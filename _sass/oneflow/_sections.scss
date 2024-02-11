@@ -6,6 +6,7 @@
     left: 50%;
     right: 50%;
     transform: translateX(-50%);
+    z-index: 1;
 }
 
 section.site-section {
@@ -17,7 +18,6 @@ section.site-section {
     left: 50%;
     right: 50%;
     transform: translateX(-50%);
-    z-index: -1;
 }
 
 section.alternative-color {
