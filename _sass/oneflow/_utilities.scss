@@ -599,18 +599,26 @@ a.reversefootnote {
 
 .round-image-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: 20px;
+    flex-wrap: wrap;
+}
 
-    @media screen and (max-width: 768px) {
-        flex-direction: column;
-        align-items: center;
-    }
+.round-image-box-full {
+    width: calc(100% - 40px);
+}
+
+.round-image-box-half {
+    width: calc(50% - 30px);
+}
+
+.round-image-box-third {
+    width: calc(33.33% - 25px);
 }
 
 .round-image-box {
-    width: calc(33.33% - 20px);
     padding: 20px;
+    margin-bottom: 20px;
     border: 1px solid $primary-color;
     box-sizing: border-box;
     text-align: center;

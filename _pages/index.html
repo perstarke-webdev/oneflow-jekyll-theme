@@ -36,6 +36,27 @@ gallery:
       image_path: /assets/images/header.webp
       alt: "placeholder image 3"
       title: "Image 3 title caption"
+
+
+round-images:
+    - image-path: "/assets/images/header.webp"
+      size: "full"
+      header: "Header 1"
+      caption: "Caption 1"
+    - image-path: "/assets/images/header.webp"
+      size: "third"
+      header: "Header 2"
+      caption: "Caption 2"
+    - image-path: "/assets/images/header.webp"
+      size: "third"
+      header: "Header 3"
+      caption: "Caption 3"
+    - image-path: "/assets/images/header.webp"
+      size: "third"
+      header: "Header 4"
+      caption: "Caption 4"
+
+
 ---
 
 <section class="site-section" id="section-1">
@@ -87,29 +108,7 @@ gallery:
     <p>This is an informational notice. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 </div>
 
-<div class="round-image-container">
-    <div class="round-image-box">
-        <div class="round-image">
-            <img src="/assets/images/header.webp">
-        </div>
-        <h3>Header</h3>
-        <p>Caption</p>
-    </div>
-    <div class="round-image-box">
-        <div class="round-image">
-            <img src="/assets/images/header.webp">
-        </div>
-        <h3>Header</h3>
-        <p>Caption</p>
-    </div>
-    <div class="round-image-box">
-        <div class="round-image">
-            <img src="/assets/images/header.webp">
-        </div>
-            <h3>Header</h3>
-            <p>Caption</p>
-    </div>
-</div>
+{% include round-images %}
 
 </section>
 
