@@ -13,14 +13,15 @@ locale                   : "en-US"
 title                    : "OneFlow Jekyll Theme"
 title_separator          : "-"
 subtitle                 : " " # Displayed in the masthead below the title, use " " for no subtitle
-url                      : "https://oneflow.github.io "# the base hostname & protocol for your site
+url                      : "https://test123domain123.de"# the base hostname & protocol for your site
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "perstarke-webdev/oneflow-jekyll-theme" # GitHub username/repo-name
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/logo.webp" # Site logo displayed in the masthead
 masthead_title           : " " # Overrides the website title displayed in the masthead, use " " for no title
 sticky-masthead          : true # if true, masthead/navigation bar will stay visible when the user scrolls down.
-                                 # Do NOT use quotation marks to set false / true here.
+                                # if false, it will move out of sight when scrolling.
+                                # Do NOT use quotation marks to set false / true here.
 
 
 
