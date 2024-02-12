@@ -13,3 +13,6 @@ main:
   - title: "Section 3"
     url: /#section-3
     blank: false
+  - title: "Section 4"
+    url: /#section-4
+    blank: false

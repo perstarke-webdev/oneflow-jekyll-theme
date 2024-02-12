@@ -20,6 +20,10 @@ section.site-section {
     transform: translateX(-50%);
 }
 
+section.first-section {
+    margin-top: -2em;
+}
+
 section.alternative-color {
     background-color: mix($background-color, $primary-color, 50%);
 }
