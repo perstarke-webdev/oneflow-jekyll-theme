@@ -414,21 +414,21 @@ a.reversefootnote {
 
 .round-image-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 20px;
     flex-wrap: wrap;
 }
 
 .round-image-box-full {
-    width: calc(100% - 40px);
+    width: 100%;
 }
 
 .round-image-box-half {
-    width: calc(50% - 30px);
+    width: calc(50% - 20px);
 }
 
 .round-image-box-third {
-    width: calc(33.33% - 25px);
+    width: calc(33.33% - 20px);
 }
 
 .round-image-box {
