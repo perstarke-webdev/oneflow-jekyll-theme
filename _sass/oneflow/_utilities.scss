@@ -80,30 +80,6 @@ body:hover .visually-hidden button {
 }
 
 /*
-   Type
-   ========================================================================== */
-
-.text-left {
-  text-align: left;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.text-right {
-  text-align: right;
-}
-
-.text-justify {
-  text-align: justify;
-}
-
-.text-nowrap {
-  white-space: nowrap;
-}
-
-/*
    Task lists
    ========================================================================== */
 
@@ -138,52 +114,6 @@ body:hover .visually-hidden button {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-}
-
-/*
-   Images
-   ========================================================================== */
-
-/* image align left */
-
-.align-left {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
-  @include breakpoint($small) {
-    float: left;
-    margin-right: 1em;
-  }
-}
-
-/* image align right */
-
-.align-right {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
-  @include breakpoint($small) {
-    float: right;
-    margin-left: 1em;
-  }
-}
-
-/* image align center */
-
-.align-center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* file page content container */
-
-.full {
-  @include breakpoint($large) {
-    margin-right: -1 * span(2.5 of 12) !important;
-  }
 }
 
 /*
