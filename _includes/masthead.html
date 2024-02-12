@@ -1,6 +1,6 @@
 {% capture logo_path %}{{ site.logo }}{% endcapture %}
 
-<div class="masthead" {% if site.sticky-masthead %} style="position: sticky;" {% endif %}>
+<div class="masthead" style="opacity: {{site.masthead-opacity}} !important; {% if site.sticky-masthead %} position: sticky;{% endif %}">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">

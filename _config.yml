@@ -22,6 +22,8 @@ masthead_title           : " " # Overrides the website title displayed in the ma
 sticky-masthead          : true # if true, masthead/navigation bar will stay visible when the user scrolls down.
                                 # if false, it will move out of sight when scrolling.
                                 # Do NOT use quotation marks to set false / true here.
+masthead-opacity         : 0.85 # set to any value between 0 (not recommended) and 1.
+                                # 0.8-0.9 is a good recommended starting point. Only relevant if masthead is sticky.
 
 
 
