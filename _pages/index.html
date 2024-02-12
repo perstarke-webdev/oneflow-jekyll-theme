@@ -42,41 +42,45 @@ round-images:
     - image-path: "/assets/images/header.webp"
       size: "full"
       header: "Header 1"
-      caption: "Caption 1"
+      caption: "Caption 1 - Full size"
     - image-path: "/assets/images/header.webp"
       size: "third"
       header: "Header 2"
-      caption: "Caption 2"
+      caption: "Caption 2 - Third size"
     - image-path: "/assets/images/header.webp"
       size: "third"
       header: "Header 3"
-      caption: "Caption 3"
+      caption: "Caption 3 - Third size"
     - image-path: "/assets/images/header.webp"
       size: "third"
       header: "Header 4"
-      caption: "Caption 4"
+      caption: "Caption 4 - Third size"
+    - image-path: "/assets/images/header.webp"
+      size: "half"
+      header: "Header 5"
+      caption: "Caption 5 - Half size"
+    - image-path: "/assets/images/header.webp"
+      size: "half"
+      header: "Header 6"
+      caption: "Caption 6 - Half size"
 
 
 ---
 
 <section class="site-section alternative-color first-section" id="section-1">
 
-    <h1> This is OneFlow Jekyll Theme. Section 1</h1>
+    <h1>This is OneFlow Jekyll Theme. Section 1, in alternative color</h1>
 
-    <h2>Minimalist Design</h2>
-    <p>With its minimalist design and intuitive layout, OneFlow offers a seamless user experience for showcasing your content.</p>
+    <h2>Practical Design</h2>
+    <p>With its practical design and intuitive layout, OneFlow offers a seamless user experience for showcasing your content.</p>
 
-    <h2>Perfect Canvas</h2>
-    <p>Whether you're a freelancer, a small business, or a creative professional, OneFlow provides the perfect canvas for your online presence.</p>
-
-
-    <div class="notice">
-        <h4>Notice</h4>
-        <p>This is a notice. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </div>
-
+    <h3>Gallery</h3>
 
     {% include gallery caption="This is a sample gallery with **Markdown support**"%}
+
+    <h3> Round Images</h3>
+
+    {% include round-images %}
 
 </section>
 
@@ -95,57 +99,43 @@ round-images:
 
 <section class="site-section" id="section-2">
 
-    <h1> This is OneFlow Jekyll Theme. Section 2</h1>
+    <h1>This is OneFlow Jekyll Theme. Section 2, in normal color</h1>
 
-    <h2>Minimalist Design</h2>
-    <p>With its minimalist design and intuitive layout, OneFlow offers a seamless user experience for showcasing your content.</p>
+    <h2>Utilities</h2>
 
-    <h2>Perfect Canvas</h2>
-    <p>Whether you're a freelancer, a small business, or a creative professional, OneFlow provides the perfect canvas for your online presence.</p>
+    <h3>Notices</h3>
+
+    <div class="notice">
+        <h4>Notice</h4>
+        <p>This is a notice. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+
+    <div class="notice--primary">
+        <h4>Primary Notice</h4>
+        <p>This is a pirmary notice. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+
+    <div class="notice--success">
+        <h4>Success Notice</h4>
+        <p>This is a success notice. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+
+    <div class="notice--warning">
+        <h4>Warning Notice</h4>
+        <p>This is a warning notice. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+
+    <div class="notice--danger">
+        <h4>Danger Notice</h4>
+        <p>This is a danger notice. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
 
     <div class="notice--info">
-        <h4>Informational Notice</h4>
-        <p>This is an informational notice. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <h4>Info Notice</h4>
+        <p>This is an info notice. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </div>
 
-    {% include round-images %}
-
-    <div class="box">
-        <h4>Box</h4>
-        <p>Text in a box</p>
-    </div>
-
-</section>
-
-
-
-
-
-
-
-
-<hr class="section-sep">
-
-
-
-
-
-
-
-<section class="site-section alternative-color" id="section-3">
-
-    <h1> This is OneFlow Jekyll Theme. Section 3</h1>
-
-    <h2>Minimalist Design</h2>
-    <p>With its minimalist design and intuitive layout, OneFlow offers a seamless user experience for showcasing your content.</p>
-
-    <h2>Perfect Canvas</h2>
-    <p>Whether you're a freelancer, a small business, or a creative professional, OneFlow provides the perfect canvas for your online presence.</p>
-
-    <div class="notice--info">
-        <h4>Informational Notice</h4>
-        <p>This is an informational notice. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </div>
+    <hr>
 
     <h3>Boxes of different sizes in a container</h3>
 
@@ -183,6 +173,59 @@ round-images:
 
     </div>
 
+    <hr>
+
+    <h3>Buttons</h3>
+
+    <a href="#" class="btn btn--primary">Primary Button</a>
+    <a href="#" class="btn btn--success">Success Button</a>
+    <a href="#" class="btn btn--warning">Warning Button</a>
+    <a href="#" class="btn btn--danger">Danger Button</a>
+    <a href="#" class="btn btn--info">Info Button</a>
+    <a href="#" class="btn btn--inverse">Inverse Button</a>
+    <br><br>
+    <a href="#" class="btn btn--primary btn--x-large">Extra Large Button</a>
+    <a href="#" class="btn btn--primary btn--large">Large Button</a>
+    <a href="#" class="btn btn--primary">Default Button</a>
+    <a href="#" class="btn btn--primary btn--small">Small Button</a>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+<hr class="section-sep">
+
+
+
+
+
+
+
+<section class="site-section alternative-color" id="section-3">
+
+    <h1>This is OneFlow Jekyll Theme. Section 3</h1>
+
+    <h2>Easy customization</h2>
+
+    <h3>Color skins</h3>
+    OneFlow offers various color skins, easily settable in the <code>_config.yml</code> file.
+
+    <h3>Masthead</h3>
+    The masthead is set to sticky, so it always stays visible. You can easily change that in the <code>_config.yml</code> file. <br>
+    You can also set the opacity of the masthead there.<br>
+    Of course, the navigation links also can easily be changed, in <code>/_data/navigation.yml</code>.<br>
+    The masthead can show your logo, the site title or the site title + a subtitle.
+
+    <h3>Footer</h3>
+    The links, copyright and creator in the footer can easily be set in the <code>_config.yml</code> file.
+
 </section>
 
 
@@ -202,30 +245,23 @@ round-images:
 
 <section class="site-section" id="section-4">
 
-    <h1> This is OneFlow Jekyll Theme. Section 4</h1>
+    <h1>This is OneFlow Jekyll Theme. Section 4</h1>
 
-    <h2>Minimalist Design</h2>
-    <p>With its minimalist design and intuitive layout, OneFlow offers a seamless user experience for showcasing your content.</p>
+    <h2>Easy local testing with docker</h2>
 
-    <h2>Perfect Canvas</h2>
-    <p>Whether you're a freelancer, a small business, or a creative professional, OneFlow provides the perfect canvas for your online presence.</p>
+    OneFlow comes with build-in docker configuration and a shell script that you just need to start.<br>
+    Open up a terminal, navigate to your local clone of the GitHub Repo and run <code>/_manage-site.sh</code>. Easy as that.
 
-    <div class="notice--success">
-        <h4>Success Notice</h4>
-        <p>This is a success notice. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </div>
+    <h2>Client editables</h2>
+    Are you a Web Developer and using OneFlow to build a site for a client?
+    If the client him/herself regularly wants to change certain parts of the site, for example upcoming dates,
+    OneFlow offers easy editables within Jekyll's <code>/_includes</code> folder, so the client does not have to touch
+    the rest of the site, but can still edit whatever he/she needs to edit.
 
-    <a href="#" class="btn btn--primary">Primary Button</a>
-    <a href="#" class="btn btn--success">Success Button</a>
-    <a href="#" class="btn btn--warning">Warning Button</a>
-    <a href="#" class="btn btn--danger">Danger Button</a>
-    <a href="#" class="btn btn--info">Info Button</a>
-    <a href="#" class="btn btn--inverse">Inverse Button</a>
-    <br><br>
-    <a href="#" class="btn btn--primary btn--x-large">Extra Large Button</a>
-    <a href="#" class="btn btn--primary btn--large">Large Button</a>
-    <a href="#" class="btn btn--primary">Default Button</a>
-    <a href="#" class="btn btn--primary btn--small">Small Button</a>
+    <h2>Responsive design</h2>
+    All of OneFlows features are 100% responsive and adapt to different screen sizes, so your site looks good
+    on all devices!
+
 
 
 </section>
