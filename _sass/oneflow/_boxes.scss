@@ -1,0 +1,30 @@
+.box {
+    border: 1.5px solid black;
+    border-radius: 5px;
+    background-color: rgba($primary-color, 0.05);
+    margin-bottom: 20px;
+}
+
+.alternative-color .box {
+    background-color: rgba($background-color, 0.05);
+}
+
+.box--primary {
+    border-color: $primary-color
+}
+
+.box--success {
+    border-color: $success-color
+}
+
+.box--warning {
+    border-color: $warning-color
+}
+
+.box--danger {
+    border-color: $danger-color
+}
+
+.box--info {
+    border-color: $info-color
+}
