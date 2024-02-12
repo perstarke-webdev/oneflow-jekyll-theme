@@ -1,9 +1,9 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
+  - title: "Theme Documentation"
     url: https://perstarke-webdev.de
     blank: true
-    description: "The quick-start guide for this theme, on https://perstarke-webdev.de"
+    description: "The documentation for this theme, on https://perstarke-webdev.de"
   - title: "Section 1"
     url: /#section-1
     blank: false
