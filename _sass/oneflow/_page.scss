@@ -36,17 +36,6 @@ body {
 }
 
 .page {
-  @include breakpoint($large) {
-    float: right;
-    width: calc(100% - #{$right-sidebar-width-narrow});
-    padding-right: $right-sidebar-width-narrow;
-  }
-
-  @include breakpoint($x-large) {
-    width: calc(100% - #{$right-sidebar-width});
-    padding-right: $right-sidebar-width;
-  }
-
   .page__inner-wrap {
     float: left;
     margin-top: 1em;
@@ -531,15 +520,6 @@ text-align: center;
   margin-top: 2em;
   padding-top: 1em;
   border-top: 1px solid $border-color;
-
-  @include breakpoint($large) {
-    float: right;
-    width: calc(100% - #{$right-sidebar-width-narrow});
-  }
-
-  @include breakpoint($x-large) {
-    width: calc(100% - #{$right-sidebar-width});
-  }
 
   a {
     color: inherit;
