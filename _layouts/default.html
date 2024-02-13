@@ -26,13 +26,25 @@
     {% include_cached masthead.html %}
 
 
-    {% if site.background-image %}
-      <div class="bg" style="
-        background-image: url({{site.background-image}});
-        @media (max-width: 768px) {
-        background-image: url({{site.background-image-mobile}});
+    <style>
 
-    ">
+        .bg {
+          background-image: url({{site.background-image}});
+        }
+
+        .bg::after {
+           background-color: {{site.background-image-overlay}};
+        }
+
+        @media (max-width: 768px) {
+          .bg {
+            background-image: url({{site.background-image-mobile}});
+          }
+        }
+    </style>
+
+    {% if site.background-image %}
+      <div class="bg">
     {% endif %}
 
       <div class="initial-content">
