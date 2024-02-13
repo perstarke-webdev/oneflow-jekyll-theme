@@ -7,3 +7,5 @@ search: false
 
 @import "oneflow/skins/{{ site.oneflow-skin | default: 'default' }}"; // skin
 @import "oneflow"; // main partials
+
+@import "custom-styles.css" // custom css stylesheet
