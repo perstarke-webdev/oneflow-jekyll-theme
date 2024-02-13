@@ -64,7 +64,25 @@ round-images:
       header: "Header 6"
       caption: "Caption 6 - Half size"
 
+image-text-row:
+    - header: "Image-Text-Row"
+      excerpt: "This is an image-text-row"
+      image-url: "/assets/images/header.webp"
+      alt-text: "Alternative text for the image"
+      image-width: "400px"
+      image-right: false
 
+image-text-row-two:
+    - header: "Image-Text-Row"
+      excerpt: "This is an image-text-row with the image on the right (on large enough screens) and a little bit longer text plus a button"
+      btn-url: "#"
+      btn-class: "info"
+      btn-label: "A button"
+      blank: false
+      image-url: "/assets/images/header.webp"
+      alt-text: "Alternative text for the image"
+      image-width: "400px"
+      image-right: true
 ---
 
 <section class="site-section alternative-color first-section" id="section-1">
@@ -74,6 +92,8 @@ round-images:
     <h2>Practical Design</h2>
     <p>With its practical design and intuitive layout, OneFlow offers a seamless user experience for showcasing your content.</p>
 
+    <h2>Drop in galleries, round images or image-text-rows via yaml front matter</h2>
+
     <h3>Gallery</h3>
 
     {% include gallery caption="This is a sample gallery with **Markdown support**"%}
@@ -81,6 +101,14 @@ round-images:
     <h3> Round Images</h3>
 
     {% include round-images %}
+
+    <h3> Image-Text-Rows</h3>
+
+    {% include image-text-row %}
+
+    <hr>
+
+    {% include image-text-row id="image-text-row-two" %}
 
 </section>
 
@@ -262,6 +290,7 @@ round-images:
     All of OneFlows features are 100% responsive and adapt to different screen sizes, so your site looks good
     on all devices!
 
+    <hr>
 
 
 </section>

@@ -458,3 +458,49 @@ a.reversefootnote {
     object-position: center;
     border-radius: 50%;
 }
+
+
+/*
+   Image-Text-Rows
+   ========================================================================== */
+
+
+.itr-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.itr-image-container {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.itr-text {
+    flex: 1;
+}
+
+.itr-image {
+    max-width: 100%;
+}
+
+.itr-text p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .itr-container {
+        flex-direction: column;
+    }
+
+    .itr-image-container {
+        max-width: 80vw;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 10px;
+        order: -1;
+    }
+}

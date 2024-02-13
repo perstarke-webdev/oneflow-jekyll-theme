@@ -1,0 +1,61 @@
+{% if include.id %}
+  {% assign itr-list = page[include.id] %}
+{% else %}
+  {% assign itr-list = page.image-text-row %}
+{% endif %}
+
+{% for itr in itr-list %}
+
+    {% if itr.image-right %}
+
+        <div class="itr-container">
+            <div class="itr-text">
+                {% if itr.header %}
+                    <h3>{{itr.header}}</h3>
+                {% endif %}
+                {% if itr.excerpt %}
+                    <p>{{itr.excerpt}}</p>
+                {% endif %}
+                {% if itr.btn-url %}
+                    <a href="{{itr.btn-url}}"
+                        {% if itr.blank %}
+                            target="_blank" rel="noopener noreferrer nofollow" {% endif %}
+                        class="btn btn--{{itr.btn-class | default: "primary"}}">
+                        {{itr.btn-label | default: "Learn more"}}
+                </a>
+                {% endif %}
+            </div>
+            <div class="itr-image-container">
+                <img src="{{itr.image-url}}" alt="{{itr.alt-text | default: ""}}" class="itr-image" {% if itr.image-width%}
+                style="width:{{itr.image-width}}"{% endif %}>
+            </div>
+        </div>
+
+    {% else %}
+
+        <div class="itr-container">
+            <div class="itr-image-container">
+                <img src="{{itr.image-url}}" alt="{{itr.alt-text | default: ""}}" class="itr-image" {% if itr.image-width%}
+                style="width:{{itr.image-width}}"{% endif %}>
+            </div>
+            <div class="itr-text">
+                {% if itr.header %}
+                    <h3>{{itr.header}}</h3>
+                {% endif %}
+                {% if itr.excerpt %}
+                    <p>{{itr.excerpt}}</p>
+                {% endif %}
+                {% if itr.btn-url %}
+                    <a href="{{itr.btn-url}}"
+                        {% if itr.blank %}
+                            target="_blank" rel="noopener noreferrer nofollow" {% endif %}
+                        class="btn btn--{{itr.btn-class | default: "primary"}}">
+                        {{itr.btn-label | default: "Learn more"}}
+                </a>
+                {% endif %}
+            </div>
+        </div>
+
+    {% endif %}
+
+{% endfor %}
