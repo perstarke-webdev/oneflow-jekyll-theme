@@ -1,0 +1,18 @@
+/*
+Put your font-css here. The one given below is just an example.
+Remember to include the license for the font, if required by the license.
+The Great Vibes font, included here as an example, requires no naming of the font and not giving the license,
+but many other fonts require that.
+I recommend to use google-webfonts-helper to download and self-host fonts: https://gwfh.mranftl.com/fonts.
+Put the css you get there in this file, include the downloaded files in "/assets/fonts" and then apply the font
+to any text you like.
+*/
+
+/* great-vibes-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Great Vibes';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/great-vibes-v18-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
