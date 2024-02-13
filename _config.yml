@@ -24,6 +24,9 @@ sticky-masthead          : true # if true, masthead/navigation bar will stay vis
                                 # Do NOT use quotation marks to set false / true here.
 masthead-opacity         : 0.85 # set to any value between 0 (not recommended) and 1.
                                 # 0.8-0.9 is a good recommended starting point. Only relevant if masthead is sticky.
+background-image         : '/assets/images/header.webp' # Remove, if you don't want a background image
+background-image-mobile  : '/assets/images/header.webp' # Best to use an upright image for mobile devices
+background-image-overlay : rgba(255,255,255, 0.5) # Set color and opacity for the overlay of the background image
 
 
 

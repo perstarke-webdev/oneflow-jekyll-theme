@@ -25,16 +25,30 @@
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
     {% include_cached masthead.html %}
 
-    <div class="initial-content">
-      {{ content }}
-    </div>
 
-    <div id="footer" class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include_cached footer.html %}
-      </footer>
-    </div>
+    {% if site.background-image %}
+      <div class="bg" style="
+        background-image: url({{site.background-image}});
+        @media (max-width: 768px) {
+        background-image: url({{site.background-image-mobile}});
+
+    ">
+    {% endif %}
+
+      <div class="initial-content">
+        {{ content }}
+      </div>
+
+      <div id="footer" class="page__footer">
+        <footer>
+          {% include footer/custom.html %}
+          {% include_cached footer.html %}
+        </footer>
+      </div>
+
+    {% if site.background-image %}
+      </div>
+    {% endif %}
 
     {% include scripts.html %}
 
