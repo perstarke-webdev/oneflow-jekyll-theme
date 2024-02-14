@@ -1,0 +1,43 @@
+<div id="cookie-banner">
+    This website is made available via GitHub Pages, which means it uses a global distribution network (CDN) to reliably display content. When you use the website, some of your non-personal data, such as IP address and page usage information, may be transmitted over this network to ensure the proper functioning of the website.
+    You can find more information in the
+    <a href="/imprint#github-pages-und-cdn-nutzung"
+       target="_blank" rel="noopener noreferrer nofollow">
+        imprint</a><br><br>
+
+
+    Please confirm that you agree to this and that we use a consent cookie that is stored for a period of one day. This cookie enables us to save your consent to the use of non-personal data and the proper functioning of the website.<br><br>
+
+    <small>For information in german, refer to the
+        <a href="/imprint"
+           target="_blank" rel="noopener noreferrer nofollow">
+            imprint</a>
+    </small>
+
+    <br><br>
+
+    <button class="btn btn--warning" id="cookie-consent-btn">Agree</button>
+</div>
+
+
+
+
+
+
+<!-- JavaScript-code for the cookie consent-banner -->
+<script>
+    if (document.cookie.indexOf('cookieConsent=1') !== -1) {
+        document.getElementById('cookie-banner').style.display = 'none';
+    }
+
+  function setCookieConsent() {
+      document.getElementById('cookie-banner').style.display = 'none';
+
+      var expiresDate = new Date();
+      expiresDate.setDate(expiresDate.getDate() + 1);
+
+      document.cookie = 'cookieConsent=1; expires=' + expiresDate.toUTCString() + '; path=/';
+  }
+
+    document.getElementById('cookie-consent-btn').addEventListener('click', setCookieConsent);
+</script>

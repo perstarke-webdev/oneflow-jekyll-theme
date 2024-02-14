@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 
-oneflow-skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+oneflow-skin    : "aqua" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -18,10 +18,11 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "perstarke-webdev/oneflow-jekyll-theme" # GitHub username/repo-name
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/logo.webp" # Site logo displayed in the masthead
-masthead_title           : " " # Overrides the website title displayed in the masthead, use " " for no title
+show-popup               : true # set to false if you don't need / want to show a cookie-banner / cdn-usage popup.
+                                # Edit the popup itself in the respective /includes file
+masthead_title           : " "  # Overrides the website title displayed in the masthead, use " " for no title
 sticky-masthead          : true # if true, masthead/navigation bar will stay visible when the user scrolls down.
                                 # if false, it will move out of sight when scrolling.
-                                # Do NOT use quotation marks to set false / true here.
 masthead-opacity         : 0.85 # set to any value between 0 and 1.
                                 # 0.8-0.9 is a good recommended starting point. Only relevant if masthead is sticky.
 background-image         : # '/assets/images/header.webp' # Remove / out-comment, if you don't want a background image
