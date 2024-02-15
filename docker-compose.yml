@@ -1,15 +1,7 @@
-# docker-compose definition for developing the site.
-#
-version: '3'
-
 services:
-  OneFlow-jekyll:
-    build: .
-    image: oneflow-jekyll-theme
-    command: jekyll serve --trace --host 0.0.0.0 --watch --config _config.yml
-    environment:
-      - JEKYLL_ENV=development
-    ports:
-      - 4000:4000
+  jekyll:
+    image: bretfisher/jekyll-serve
     volumes:
-      - .:/srv/jekyll
+      - .:/site
+    ports:
+      - '4000:4000'
