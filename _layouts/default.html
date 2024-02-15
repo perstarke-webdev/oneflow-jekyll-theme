@@ -36,10 +36,15 @@
            background-color: {{site.background-image-overlay}};
         }
 
+        {% if site.background-image-mobile %}
+
         @media (max-width: 768px) {
           .bg {
             background-image: url({{site.background-image-mobile}});
           }
+
+         {% endif %}
+
         }
     </style>
 
