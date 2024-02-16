@@ -8,7 +8,7 @@ Check out the [Theme Website](https://oneflow-jekyll-theme.github.io/) showcasin
 ## Full documentation
 Extensive documentation for OneFlow is available [here](https://perstarke-webdev.de/oneflow-jekyll-theme).
 
-## Development 
+## Getting started & development 
 
 ### Fork and clone this repository
 The **vision of this theme** is **simplicity and accesibility**, to easily create stunning websites from scratch.  
