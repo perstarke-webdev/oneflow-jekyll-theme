@@ -20,4 +20,4 @@ To test your website and see all of your changes in real-time without deploying 
 - Make sure you have [Bundler](https://bundler.io/) and [Docker](https://www.docker.com/) installed.  
 - Open up a terminal, navigate to your local repository, and run ```docker compose up```.
 
-Your site will then be visible at ```0:.0.0.0:4000``` in any browser.
+Your site will then be visible at ```http://0.0.0.0:4000/``` in any browser.
