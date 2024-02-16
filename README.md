@@ -11,7 +11,7 @@ Extensive documentation for OneFlow is available [here](https://perstarke-webdev
 ## Getting started & development 
 
 ### Fork and clone this repository
-The **vision of this theme** is **simplicity and accesibility**, to easily create stunning websites from scratch.  
+The **vision of this theme** is **simplicity and accessibility**, to easily create stunning websites from scratch.  
 Therefore, it's not available as a classic gem-based Jekyll theme, but as a ready-to-use GitHub repository that you just need to fork and clone.  
 So, get ahead and make a fork of this repository, rename it if you like to suit the name of the site you want to create, locally clone it, and directly start editing!
 
