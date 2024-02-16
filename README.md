@@ -3,10 +3,10 @@
 ## What is it
 OneFlow is a Jekyll Theme designed to create stunning, clear and practical modern One-Pager Websites. 
 It offers lots of features and customization options, so you can easily create a Site that matches your own or your client's wishes for design and structure.  
-Check out the [Theme Website]() showcasing and explaining the various opportunities the theme offers, and also check out the [first example website](https://oneflow-jekyll-theme-example-one.github.io/) and the [second example website](https://oneflow-jekyll-theme-example-two.github.io/) to see a few of the different design options the theme offers.  
+Check out the [Theme Website](https://oneflow-jekyll-theme.github.io/) showcasing and explaining the various opportunities the theme offers, and also check out the [first example website](https://oneflow-jekyll-theme-example-one.github.io/) and the [second example website](https://oneflow-jekyll-theme-example-two.github.io/) to see a few of the different design options the theme offers.  
 
 ## Full documentation
-Extensive documentation for OneFlow is available [here]().
+Extensive documentation for OneFlow is available [here](https://perstarke-webdev.de/oneflow-jekyll-theme).
 
 ## Development 
 
