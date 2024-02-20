@@ -21,3 +21,7 @@ To test your website and see all of your changes in real-time without deploying 
 - Open up a terminal, navigate to your local repository, and run ```docker compose up```.
 
 Your site will then be visible at ```http://0.0.0.0:4000/``` in any browser.
+
+### News
+
+OneFlow is now featured on [Jamstackthemes](https://jamstackthemes.dev/theme/oneflow/).
