@@ -22,6 +22,6 @@ To test your website and see all of your changes in real-time without deploying 
 
 Your site will then be visible at ```http://0.0.0.0:4000/``` in any browser.
 
-### News
+## News
 
 OneFlow is now featured on [Jamstackthemes](https://jamstackthemes.dev/theme/oneflow/).
