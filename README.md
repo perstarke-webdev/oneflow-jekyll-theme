@@ -24,4 +24,5 @@ Your site will then be visible at ```http://0.0.0.0:4000/``` in any browser.
 
 ## News
 
-OneFlow is now featured on [Jamstackthemes](https://jamstackthemes.dev/theme/oneflow/).
+- OneFlow is now featured on [Jamstackthemes](https://jamstackthemes.dev/theme/oneflow/)
+- OneFlow is now featured on [jeyll-themes.com](https://jekyll-themes.com/perstarke-webdev/oneflow-jekyll-theme/)
