@@ -37,21 +37,27 @@ footer:
     - label: "Website"
       icon: "fa fa-globe"
       url: "https://madridjug.com"
+      blank: false
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/company/madridjug/"
+      blank: true
     - label: "X/Twitter"
       icon: "fab fa-x-twitter"
       url: "https://x.com/madridJUG"
+      blank: true
     - label: "Mastodon"
       icon: "fab fa-mastodon"
       url: "https://jvm.social/@madridJUG"
+      blank: true
     - label: "YouTube"
       icon: "fab fa-youtube"
       url: "https://www.youtube.com/channel/madridjug"
+      blank: true
     - label: "Open Collective"
       icon: "fa-solid fa-circle-dollar-to-slot"
       url: "https://opencollective.com/madridjug"
+      blank: true
 
   copyright: "Madrid JUG" # Replace with your own
 
