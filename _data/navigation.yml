@@ -3,6 +3,9 @@ main:
   - title: "Sobre MadridJUG"
     url: /#about-us
     blank: false
+  - title: "Nuestro Manifiesto"
+    url: /#manifiesto
+    blank: false
   - title: "Próximas Sesiones"
     url: /#proximas-sesiones
     blank: false
