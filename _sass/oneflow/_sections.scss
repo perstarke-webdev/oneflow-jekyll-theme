@@ -27,3 +27,7 @@ section.first-section {
 section.alternative-color {
     background-color: mix($background-color, $primary-color, 50%);
 }
+
+section p {
+    text-align: justify;
+}

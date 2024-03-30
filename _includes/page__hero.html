@@ -30,9 +30,14 @@
       {% endif %}
       {% if page.header.actions %}
       <div style="text-align: center">
-        <p>
         {% for action in page.header.actions %}
-          <a href="{{ action.url | relative_url }}" class="btn btn--light-outline btn--large" {% if action.blank %} target="_blank" rel="noopener noreferrer nofollow"{% endif %}>{{ action.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+          <a href="{{ action.url | relative_url }}" class="btn btn--light-outline btn--large" {% if action.blank %} target="_blank" rel="noopener noreferrer nofollow"{% endif %}>
+            {% if action.icon %}
+            <i class="{{action.icon}}" aria-hidden="true"></i>
+            {% else %}
+            {{ action.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}
+            {% endif %}
+          </a>
         {% endfor %}
       </div>
       {% endif %}
