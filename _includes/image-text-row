@@ -10,6 +10,9 @@
 
         <div class="itr-container">
             <div class="itr-text">
+                {% if itr.date %}
+                    <h3>{{itr.date}}</h3>
+                {% endif %}
                 {% if itr.header %}
                     <h3>{{itr.header}}</h3>
                 {% endif %}
@@ -39,6 +42,9 @@
                 style="width:{{itr.image-width}}"{% endif %}>
             </div>
             <div class="itr-text">
+                {% if itr.date %}
+                    <h3>{{itr.date}}</h3>
+                {% endif %}
                 {% if itr.header %}
                     <h3>{{itr.header}}</h3>
                 {% endif %}
