@@ -64,6 +64,6 @@
 
     {% endif %}
 
-    <hr />
-    
+    {% unless forloop.last %}<hr />{% endunless %}
+
 {% endfor %}
