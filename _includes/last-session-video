@@ -1,0 +1,17 @@
+{% if include.id %}
+  {% assign last-session = page[include.id] %}
+  <section class="site-section" id="ultima-sesion"> 
+    <h1>Nuestra última sesión</h1>
+
+    <p>Si no pudiste asistir a nuestra última sesión, o quieres volver a verla, aquí tienes la grabación.
+        Si estás buscando alguna charla anterior, comprueba nuestra 
+        <a href="https://www.youtube.com/playlist?list=PLjm-rnyHjKfQgjp6sGUqgWpaMv1v_XJ5z">lista de reproducción en Youtube con todas las sesiones grabadas</a>.
+    </p>
+
+    <h2>{{last-session.title}}</h2>
+
+    {% include video id=last-session.youtube-id provider="youtube" %}
+
+</section>
+{% endif %}
+

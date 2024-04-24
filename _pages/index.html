@@ -64,8 +64,8 @@ comming-up-row-one:
       image-right: true
 
 last-session:
-    - title: "Apostando por Quarkus en un proyecto Real"
-    - youtube-id: HJEnHBCtrAM
+    title: "Apostando por Quarkus en un proyecto Real"
+    youtube-id: HJEnHBCtrAM
 ---
 
 <section class="site-section alternative-color first-section" id="about-us">
@@ -146,16 +146,4 @@ last-session:
 
 <hr class="section-sep">
 
-<section class="site-section" id="ultima-sesion"> 
-    <h1>Nuestra última sesión</h1>
-
-    <h2>{% last-session.title %}</h2>
-
-    <p>Si no pudiste asistir a nuestra última sesión, o quieres volver a verla, aquí tienes la grabación.
-        Si estás buscando alguna charla anterior, comprueba nuestra 
-        <a href="https://www.youtube.com/playlist?list=PLjm-rnyHjKfQgjp6sGUqgWpaMv1v_XJ5z">lista de reproducción en Youtube con todas las sesiones grabadas</a>.
-    </p>
-
-    {% include video id="last-session.youtube-id" provider="youtube" %}
-
-</section>
+{% include last-session-video id="last-session" %}
