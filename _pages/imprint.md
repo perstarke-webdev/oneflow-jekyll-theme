@@ -18,9 +18,12 @@ Per Starke, Willi-Lauf Allee 43, D-50858 Köln
 Telefon: +49 160 93268817
 <br>
 e-Mail: per_at_starke-team.de
-<br>
+<br>  
+  
+[Website](https://perstarke-webdev.de/)
+[Blog](https://blog.perstarke-webdev.de/)
 
-
+  
 ## Datenschutzerklärung
 
 #### Geltungsbereich
