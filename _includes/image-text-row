@@ -29,6 +29,12 @@
                 {% endif %}
             </div>
             <div class="itr-image-container">
+                {% if itr.date %}
+                    <h3>&nbsp;</h3>
+                {% endif %}
+                {% if itr.header %}
+                    <br>
+                {% endif %}
                 <img src="{{itr.image-url}}" alt="{{itr.alt-text | default: ""}}" class="itr-image" {% if itr.image-width%}
                 style="width:{{itr.image-width}}"{% endif %}>
             </div>
